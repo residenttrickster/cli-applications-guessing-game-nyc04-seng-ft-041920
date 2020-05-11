@@ -10,7 +10,7 @@ input = gets.chomp
     puts "You guessed the correct number!"
   elsif input == "exit"
     puts "Goodbye!"
-  elsif input.to_i != number
+  elsif input != number
     puts "Sorry! The computer guessed #{number}."
  end
 end
